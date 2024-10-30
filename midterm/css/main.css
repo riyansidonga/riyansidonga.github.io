@@ -54,14 +54,28 @@ body{
 	background-color: #aad4cf;
 }
 
+.wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 40px;
+	background-color: #d4e9e7;
+} 
+
+h1,h2,h3{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 30px;
+}
 header{
 	position:relative;
 	text-align:center;
+	padding: 20px;
 }
 
 header image{
-	height:auto;
 	width:100%;
+	margin-bottom: 10px;
+
 }
 
 .title{
@@ -132,13 +146,12 @@ nav ul li a {
 
 .contact button {
     padding: 0.5em 1em;
-    background-color: #aad4cf;
     border: black;
     cursor: pointer;
 }
 
 footer {
-    text-align: center;
+    text-align: right;
     padding: 1em;
     background-color: #d4e9e7;
 }

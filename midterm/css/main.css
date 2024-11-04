@@ -49,109 +49,133 @@ table {
 
 /* ============== My CSS ============= */
 
-body{
-	font-family:Arial, Helvetica, sans-serif;
-	background-color: #aad4cf;
-}
-
 .wrapper{
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 40px;
+    padding: 0;
 	background-color: #d4e9e7;
 } 
 
-h1,h2,h3{
-	margin-top: 15px;
-	margin-bottom: 15px;
-	font-size: 30px;
-}
-header{
-	position:relative;
-	text-align:center;
-	padding: 20px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #aad4cf;
+    color: black;
+    line-height: 1.6;
 }
 
-header image{
-	width:100%;
-	margin-bottom: 10px;
-
+header {
+    position: relative;
+    text-align:center;
+    background-color: #d4e9e7;
 }
 
-.title{
-	position:absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%, -50%);
-	font-size: 2.5rem;
-	color: white;
+header img {
+    width: 100%;
+    height: auto;
 }
 
-nav ul{
-	display: flex;
-	justify-content: center;
-	list-style: none;
-	padding: 1em 0;
-	background-color: #d4e9e7;
+header h1 {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    background-color: #d4e9e7;
 }
 
 nav ul li {
-    margin: 0 1em;
+    margin: 0 10px 0 10px;
+
 }
 
 nav ul li a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
 }
 
-.article {
-    padding: 2em;
+main {
+    padding: 10px;
 }
 
-.article img {
+#story, #facts {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #d4e9e7;
+}
+
+#story img {
     float: left;
-    margin-right: 1em;
+    margin-right: 15px;
     width: 150px;
 }
 
-.facts {
-    background-color: #d4e9e7;
-    padding: 1em;
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
-.facts ul {
+#facts ul {
     list-style-type: disc;
-    padding-left: 2em;
+    padding-left: 20px;
 }
 
-.contact {
-    background-color: #d4e9e7;
-    padding: 1em;
-    margin-top: 1em;
-}
-
-.contact form {
+form {
     display: flex;
     flex-direction: column;
+    margin: 10px;
 }
 
-.contact label {
-    margin: 0.5em 0 0.2em;
+label {
+    margin-top: 10px;
 }
 
-.contact input, .contact textarea {
-    padding: 0.5em;
-    margin-bottom: 1em;
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
 }
 
-.contact button {
-    padding: 0.5em 1em;
-    border: black;
+.radio-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#contact{
+    border: 1px solid black;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #d4e9e7;
+}
+
+form button {
+    width: 75px;
+    height: 50px;
+    padding: 1px;
+    background-color: #d4e9e7;
     cursor: pointer;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 footer {
     text-align: right;
     padding: 1em;
     background-color: #d4e9e7;
+    color: black;
+    font-size: 0.9em;
+    margin-top: 20px;
 }

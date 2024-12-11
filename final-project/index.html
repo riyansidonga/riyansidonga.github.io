@@ -8,87 +8,104 @@
 </head>
 <body>
 
+    <div class="wrapper">
+
+    <!-- Navigation -->
+
     <header>
+ 
+       
 
-        <div class="logo">
-            <img src="images/logo.png" alt="Three Star Media Logo"> 
-        </div>
-
-        <nav>
+        <nav class="main-nav">
             <ul>
+                <li><div class="logo">
+                        <img src="images/logo.png" alt="Three Star Media Logo"> 
+                    </div>
+                </li>
                 <li><a href="#about"> Home</a></li>
                 <li><a href="#about"> About Us</a></li>
                 <li><a href="#services"> Services</a></li>
                 <li><a href="#team"> Team</a></li>
                 <li><a href="#contact"> Contact</a></li>
+                <li><div class="search-container">
+                        <input type="text" placeholder="Search">
+                        <i class="fa fa-search"></i>
+                    </div>
+                </li>
             </ul>
         </nav>
 
     </header>
 
+    <!-- About Us -->
     <main>
 
         <section class="main-banner">
             <img src="images/main-banner.jpg" alt="Main banner">
             <h1> Welcome to Three Star Media</h1>
             <p> Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!</p>
-            <a href="#contact" class="btn">Connect with us</a>
+            <a href="#contact" class="btn"> <i class="fa-solid fa-caret-right"></i>Connect with us</a>
         </section>
 
-        <section id="about">
+        <section id="about" class="about">
             <img src="images/about-us.jpg" alt="About Us">
             <h2> About Us</h2>
             <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?
             </p>
         </section>
 
-        <section id="services">
+        <!-- Services -->
+        <section id="services" class="boxes">
 
             <h2> Our Services</h2>
 
-            <div class="service">
+            <div class="box">
                 <img src="images/digital.jpg" alt="Digital Transforamtion">
                 <h3>Digital Transformation</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                <a href="#services" class="btn"> Digital Plans</a>
+                <a href="#services" class="btn"> <i class="fa-solid fa-caret-right"></i> Digital Plans</a>
             </div>
 
-            <div class="service">
+            <div class="box">
                 <img src="images/marketing.jpg" alt="Marketing">
                 <h3>Marketing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?
                 </p>
-                <a href="#services" class="btn"> Marketing Plans</a>
+                <a href="#services" class="btn"> <i class="fa-solid fa-caret-right"> </i>Marketing Plans</a>
             </div>
 
-            <div class="service">
+            <div class="box">
                 <img src="images/video.jpg" alt="Video Production">
                 <h3>Video Production</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                <a href="#services" class="btn">Video Plans</a>
+                <a href="#services" class="btn"> <i class="fa-solid fa-caret-right"> </i>Video Plans</a>
             </div>
 
-            <div class="service">
+            <div class="box">
                 <img src="images/web.jpg" alt="Web Development">
                 <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                <a href="#services" class="btn">Web Plans</a>
+                <a href="#services" class="btn"> <i class="fa-solid fa-caret-right"> </i>Web Plans</a>
             </div>
 
-            <div class="service">
+            <div class="box">
                 <img src="images/print.jpg" alt="Print">
                 <h3>Print</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Eius vel, rem inventore quo tempora animi mollitia eaque error qui consectetur in reprehenderit magnam at vitae corporis quaerat deleniti explicabo nisi?</p>
-                <a href="#services" class="btn">Print Plans</a>
+                <a href="#services" class="btn"> <i class="fa-solid fa-caret-right"> </i>Print Plans</a>
             </div>
 
         </section>
 
+        <!-- Vision -->
+
         <section id="vision">
             <img src="images/vision.jpg" alt="Our Vision">
-            <h2>Our Vision</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
-            <a href="#about" class="btn">Learn More </a>
+            <div>
+                <h2>Our Vision</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Ex voluptatem deleniti lure, sit, accusantium rerum est commodi veniam tempora perspiciatis nobis officiis fagiat eaque. Veritatis exercitationem delectus ex ab laudantium.</p>
+            <a href="#about" class="btn"> <i class="fa-solid fa-caret-right"> </i>Learn More </a>
+            </div>
         </section>
 
         <section id="team">
@@ -165,9 +182,11 @@
     </main>
 
     <footer>
-        <p> &copy; Three Star Media, 2020</p>
+        <p> &copy; Copyright Three Star Media, 2020</p>
         <p> All images are taken from <a href="https://unsplash.com/" target="_blank"> Unsplash</a></p>
     </footer>
     
+    </div>
+
 </body>
 </html>

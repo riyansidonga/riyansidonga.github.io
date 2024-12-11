@@ -121,10 +121,8 @@ header nav ul li a:hover {
     padding: 10px 20px;
     border-radius: 25px;
     border: none;
-    box-shadow: 0px
+    box-shadow:none;
 }
-
-
 
 
 /* Main Banner */
@@ -134,7 +132,6 @@ header nav ul li a:hover {
     grid-gap: 20px;
     text-align: center;
     padding: 2em 1em;
-    background-image: linear-gradient(grey);
 }
 
 .main-banner img {
@@ -190,18 +187,18 @@ header nav ul li a:hover {
 
 }
 
-.about-us {
+.about {
     padding: 50px 20px;
     text-align: center;
     background-color:  #f9e1ac;
 }
 
-.about-us h2 {
+.about h2 {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-.about-us p {
+.about p {
     font-size: 1.2em;
     max-width: 800px;
     margin: 0 auto;
@@ -212,9 +209,6 @@ header nav ul li a:hover {
 .boxes {
     display: grid;
     grid-gap: 20px; 
-    grid-template-areas: 
-    top-box-a top-box-b
-    tob-box-c top-box-d top-box-e;
 }
 
 .top-box-a {
@@ -315,20 +309,20 @@ header nav ul li a:hover {
 }
 
 /* Team Section */
-#team {
+.team {
     padding: 50px 20px;
     text-align: center;
-    background-color: #fff;
+    background-color:  #f9e1ac ;
 }
 
-#team h2 {
+.team h2 {
     font-size: 2.5em;
     margin-bottom: 40px;
 }
 
 .team-member {
     display: inline-block;
-    width: 45%;
+    width: 50%;
     margin: 20px 2.5%;
     text-align: center;
 }
@@ -336,7 +330,6 @@ header nav ul li a:hover {
 .team-member img {
     width: 150px;
     height: 150px;
-    border-radius: 50%;
     margin-bottom: 15px;
 }
 
@@ -384,8 +377,8 @@ form textarea {
 }
 
 form button {
-    background-color: #ff5c5c;
-    color: white;
+    background-color:  #222222 ;
+    color: #c78b07 ;
     border: none;
     padding: 10px 20px;
     font-size: 1.2em;
@@ -393,7 +386,8 @@ form button {
 }
 
 form button:hover {
-    background-color: #e74c3c;
+    background-color:  #c78b07;
+    color: #222222;
 }
 
 .hours-location {
